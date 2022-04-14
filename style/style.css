@@ -238,6 +238,8 @@ body {
 .new_block-info {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 15px;
 }
 
 .all__cards {
@@ -251,12 +253,16 @@ body {
     padding-bottom: 15px;
 }
 
-.new_block-info-card {}
+.sidebar__info {
+    display: flex;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
 
 .info-card-foto {
     width: 125px;
-    height: 125px;
     margin-right: 15px;
+    height: auto;
 }
 
 .info-card-title {
@@ -335,4 +341,125 @@ body {
     color: black;
     padding-left: 40px;
     font-size: 18px;
+}
+
+.comment {
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.about_title {
+    font-size: 35px;
+}
+
+.about_me {
+    display: flex;
+}
+
+.about_me_image {
+    /* padding: 9px; */
+}
+
+.about_me_text {
+    padding: 16px;
+}
+
+.about_me_text_p {
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.new_block-content {}
+
+.new_block-content img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.number__views a {
+    text-decoration: none;
+    cursor: auto;
+    color: black;
+}
+
+.number__views a:visited {
+    color: black
+}
+
+.block {
+    background-color: #ebebeb;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.no_coments {
+    padding-left: 10px;
+}
+
+.new_comment {
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.block_content {}
+
+.form__input {
+    display: flex;
+}
+
+.form__input input {
+    width: 25%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.form__input input:last-child {
+    width: 50%;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+.form__input-email {}
+
+.form__text textarea {
+    width: 100%;
+    resize: none;
+}
+
+.form__btn {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    user-select: none;
+    padding: 0.2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+}
+
+.form__btn:hover {
+    color: rgb(24, 24, 24);
+    border: 1px solid rgb(198, 198, 198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.form__btn:active {
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(238, 238, 238) linear-gradient(rgb(238, 238, 238), rgb(224, 224, 224));
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset;
 }
